@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//diplay integer
 int main()
 {
   void check(int, int, int);
@@ -27,5 +27,5 @@ void check (int a, int b, int c)
   else if (c >= 0)
     maxnum = c;
  
- printf("\nThe three numbers entered is %.2d %.2f and %.2d\n", maxnum);
+ printf("\nThe three numbers entered are : %.2d %.2f and %.2d\n", maxnum);
 }
